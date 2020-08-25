@@ -5,11 +5,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:scrollbars="vertical"
+    android:orientation="vertical"
     tools:context=".MainActivity">
-
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="Retrofit + RxJava"
+        android:paddingTop="45dp"
+        android:gravity="center_horizontal"
+        android:textSize="30sp"
+        android:background="#1F1F5A"
+        android:textColor="#B6B6CD"
+        />
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerview_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginTop="-30dp"
         />
 </LinearLayout>

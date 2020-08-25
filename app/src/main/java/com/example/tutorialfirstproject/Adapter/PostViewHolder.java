@@ -14,8 +14,8 @@ public class PostViewHolder extends RecyclerView.ViewHolder {
     public PostViewHolder(@NonNull View itemView) {
         super(itemView);
 
-        userIdTV = (TextView)itemView.findViewById(R.id.userIdTV);
-        titleTV = (TextView)itemView.findViewById(R.id.titleTV);
-        bodyTV = (TextView)itemView.findViewById(R.id.bodyTV);
+        userIdTV = itemView.findViewById(R.id.userIdTV);
+        titleTV = itemView.findViewById(R.id.titleTV);
+        bodyTV = itemView.findViewById(R.id.bodyTV);
     }
 }
